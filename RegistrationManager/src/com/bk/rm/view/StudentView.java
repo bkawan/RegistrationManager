@@ -120,6 +120,7 @@ public class StudentView {
 
                 } else if (x.equalsIgnoreCase("n")) {
                     addMore = false;
+                    studentController();
                     break;
                 } else {
                     System.out.println("Invalid Commant please enter Y or N");
@@ -140,6 +141,8 @@ public class StudentView {
 
         studentDAO.showAllStudent().forEach(allStudents -> {
             allStudents.personDetails();
+                                studentController();
+
 
         });
     }
@@ -173,9 +176,11 @@ public class StudentView {
 
                 } else if (x.equalsIgnoreCase("n")) {
                     searchMore = false;
+                                        studentController();
+
                     break;
                 } else {
-                    System.out.println("Invalid Commant please enter Y or N");
+                    System.out.println("Invalid Command please enter Y or N");
                     continue;
                 }
             }
@@ -209,6 +214,8 @@ public class StudentView {
 
                 } else if (x.equalsIgnoreCase("n")) {
                     searchMore = false;
+                                        studentController();
+
                     break;
                 } else {
                     System.out.println("Invalid Commant please enter Y or N");
@@ -238,6 +245,8 @@ public class StudentView {
 
                 } else if (x.equalsIgnoreCase("n")) {
                     deleteMore = false;
+                                        studentController();
+
                     break;
                 } else {
                     System.out.println("Invalid Commant please enter Y or N");
@@ -254,6 +263,8 @@ public class StudentView {
 
         System.out.println("Deleting All Student");
         studentDAO.deleteAllStudent();
+                            studentController();
+
     }
 
     private void mainMenu() {

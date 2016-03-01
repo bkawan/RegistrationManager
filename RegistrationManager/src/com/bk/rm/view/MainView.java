@@ -37,10 +37,30 @@ public class MainView {
     public void mainController() {
 
         mainMenu();
-        boolean invalid = false;
+        boolean valid = false;
+        boolean string = false;
+
+//        while (string) {;
+//
+//            String y = input.next();
+//        }
+
+boolean string1 = true;
+while(true){
+            if (input.next() != null) {
+
+                System.out.println("enter number");
+                
+                       string1 = false;
+                       break;
+        }
+            
+            
+}
 
         int x = input.nextInt();
 
+       
         if (5 < x || x > 0) {
 
             switch (x) {
@@ -67,10 +87,13 @@ public class MainView {
 
             }
 
-            invalid = false;
+            valid = false;
+
+        } else {
+            System.out.println("Enter Number");
         }
 
-        if (!invalid) {
+        if (!valid) {
             System.out.println("please enter the number between[1-4]");
         }
 
@@ -105,9 +128,9 @@ public class MainView {
 
     private void courseController() {
         CourseView cv = new CourseView(input, courseDAO);
-            cv.courseController();
-          
-        
+        cv.courseController();
+
     }
 
+    
 }

@@ -117,6 +117,7 @@ public class CourseView {
 
                 } else if (x.equalsIgnoreCase("n")) {
                     addMore = false;
+                    courseController();
                     break;
                 } else {
                     System.out.println("Invalid Commant please enter Y or N");
@@ -133,6 +134,7 @@ public class CourseView {
     private void deleteAllCourses() {
         System.out.println("Deleting All Course");
         courseDAO.deleteAllCourses();
+        courseController();
     }
 
     private void deleteCourse() {
@@ -152,6 +154,7 @@ public class CourseView {
 
                 } else if (x.equalsIgnoreCase("n")) {
                     deleteMore = false;
+                    courseController();
                     break;
                 } else {
                     System.out.println("Invalid Commant please enter Y or N");
@@ -192,6 +195,7 @@ public class CourseView {
 
                 } else if (x.equalsIgnoreCase("n")) {
                     searchMore = false;
+                    courseController();
                     break;
                 } else {
                     System.out.println("Invalid Command please enter Y or N");
@@ -226,6 +230,7 @@ public class CourseView {
 
                 } else if (x.equalsIgnoreCase("n")) {
                     searchMore = false;
+                    courseController();
                     break;
                 } else {
                     System.out.println("Invalid Command please enter Y or N");
@@ -246,6 +251,7 @@ public class CourseView {
         courseDAO.showAllCourse().forEach(course -> {
             course.courseDetails();
             System.out.println("----------------------");
+            courseController();
         });
     }
 

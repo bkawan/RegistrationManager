@@ -113,6 +113,7 @@ public class TrainerView {
 
                 } else if (x.equalsIgnoreCase("n")) {
                     addMore = false;
+                    trainerController();
                     break;
                 } else {
                     System.out.println("Invalid Commant please enter Y or N");
@@ -132,6 +133,8 @@ public class TrainerView {
 
         trainerDAO.showAllTrainer().forEach(trainer -> {
             trainer.personDetails();
+                                trainerController();
+
 
         });
     }
@@ -160,6 +163,8 @@ public class TrainerView {
 
                 } else if (x.equalsIgnoreCase("n")) {
                     searchMore = false;
+                                        trainerController();
+
                     break;
                 } else {
                     System.out.println("Invalid Commant please enter Y or N");
@@ -202,6 +207,8 @@ public class TrainerView {
 
                 } else if (x.equalsIgnoreCase("n")) {
                     searchMore = false;
+                                        trainerController();
+
                     break;
                 } else {
                     System.out.println("Invalid Commant please enter Y or N");
@@ -229,6 +236,8 @@ public class TrainerView {
 
                 } else if (x.equalsIgnoreCase("n")) {
                     deleteMore = false;
+                                        trainerController();
+
                     break;
                 } else {
                     System.out.println("Invalid Commant please enter Y or N");
@@ -248,6 +257,8 @@ public class TrainerView {
 
         if (input.next().equalsIgnoreCase("Y")) {
             trainerDAO.deleteAllTrainer();
+                                trainerController();
+
         }
     }
 
