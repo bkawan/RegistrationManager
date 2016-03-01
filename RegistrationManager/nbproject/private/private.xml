@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/Users/BIKESHKAWAN/NetBeansProjects/RegistrationManager/src/com/bk/rm/entity/Course.java</file>
+            <file>file:/Users/BIKESHKAWAN/NetBeansProjects/RegistrationManager/src/com/bk/rm/dao/implement/CourseDAOimplement.java</file>
+            <file>file:/Users/BIKESHKAWAN/NetBeansProjects/RegistrationManager/src/com/bk/rm/dao/implement/TrainerDAOimplement.java</file>
+            <file>file:/Users/BIKESHKAWAN/NetBeansProjects/RegistrationManager/src/com/bk/rm/view/MainView.java</file>
+            <file>file:/Users/BIKESHKAWAN/NetBeansProjects/RegistrationManager/src/com/bk/rm/dao/implement/StudentDAOimplement.java</file>
+            <file>file:/Users/BIKESHKAWAN/NetBeansProjects/RegistrationManager/src/com/bk/rm/view/StudentView.java</file>
+            <file>file:/Users/BIKESHKAWAN/NetBeansProjects/RegistrationManager/src/com/bk/rm/view/TrainerView.java</file>
+        </group>
+    </open-files>
+</project-private>
